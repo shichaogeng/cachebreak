@@ -1,0 +1,560 @@
+[2018-02-04 18:56:30] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 18:56:32] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 18:56:34] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 18:56:34] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 18:56:34] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 18:56:38] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 18:56:38] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 18:56:39] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 19:41:54] -- [DEBUG]: [com.gengsc.cachebreak.CachebreakApplication] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 19:41:55] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 19:41:55] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 19:41:55] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 19:41:55] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 19:41:59] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 19:41:59] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 19:41:59] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 19:45:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 19:45:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@744392e6] was not registered for synchronization because synchronization is not active
+[2018-02-04 19:45:08] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@3d61fbe9]]] will not be managed by Spring
+[2018-02-04 19:45:08] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 19:45:08] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 1(Long)
+[2018-02-04 19:45:08] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 19:45:08] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@744392e6]
+[2018-02-04 19:46:48] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 19:46:48] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ccad90] was not registered for synchronization because synchronization is not active
+[2018-02-04 19:46:48] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@3d61fbe9]]] will not be managed by Spring
+[2018-02-04 19:46:48] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 19:46:48] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 1(Long)
+[2018-02-04 19:46:48] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 19:46:48] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ccad90]
+[2018-02-04 21:02:50] -- [DEBUG]: [com.gengsc.cachebreak.CachebreakApplication] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 21:02:50] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 21:02:52] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 21:02:52] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 21:02:52] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 21:02:56] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 21:02:56] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 21:02:56] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 21:04:01] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 21:04:01] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@109c2edf] was not registered for synchronization because synchronization is not active
+[2018-02-04 21:04:02] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@10093337]]] will not be managed by Spring
+[2018-02-04 21:04:02] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 21:04:02] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 1(Long)
+[2018-02-04 21:04:02] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 21:04:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@109c2edf]
+[2018-02-04 21:04:11] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 21:04:11] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69340b5] was not registered for synchronization because synchronization is not active
+[2018-02-04 21:04:11] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@10093337]]] will not be managed by Spring
+[2018-02-04 21:04:11] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 21:04:11] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 1(Long)
+[2018-02-04 21:04:11] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 21:04:11] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69340b5]
+[2018-02-04 21:05:52] -- [DEBUG]: [com.gengsc.cachebreak.CachebreakApplication] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 21:05:53] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 21:05:54] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 21:05:54] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 21:05:54] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 21:05:58] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 21:05:58] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 21:05:58] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 21:06:49] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 21:06:49] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60355521] was not registered for synchronization because synchronization is not active
+[2018-02-04 21:06:50] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@38ee8127]]] will not be managed by Spring
+[2018-02-04 21:06:50] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 21:06:50] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 1(Long)
+[2018-02-04 21:06:50] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 21:06:50] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60355521]
+[2018-02-04 21:25:25] -- [DEBUG]: [com.gengsc.cachebreak.CachebreakApplication] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 21:25:26] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 21:25:28] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 21:25:28] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 21:25:28] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 21:25:33] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 21:25:33] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 21:25:33] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 21:27:08] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 21:27:08] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a445484] was not registered for synchronization because synchronization is not active
+[2018-02-04 21:27:09] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@1200b2e8]]] will not be managed by Spring
+[2018-02-04 21:27:09] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 21:27:09] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 1(Long)
+[2018-02-04 21:27:09] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 21:27:09] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a445484]
+[2018-02-04 21:32:25] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 21:32:28] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 21:32:30] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 21:32:30] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 21:32:30] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 21:32:35] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 21:32:35] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 21:32:35] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 21:33:46] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 21:33:48] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 21:33:49] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 21:33:49] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 21:33:49] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 21:33:54] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 21:33:54] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 21:33:55] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 21:35:43] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 21:35:46] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 21:35:46] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 21:35:46] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 21:35:46] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 21:35:51] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 21:35:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 21:35:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 21:37:53] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 21:37:56] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 21:37:57] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 21:37:57] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 21:37:57] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 21:38:04] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 21:38:04] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 21:38:04] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 21:49:52] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 21:49:55] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 21:49:56] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 21:49:56] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 21:49:56] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 21:50:00] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 21:50:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 21:50:01] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 21:55:22] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 21:55:24] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 21:55:25] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 21:55:25] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 21:55:25] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 21:55:30] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 21:55:30] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 21:55:31] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 21:56:46] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 21:56:49] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 21:56:50] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 21:56:50] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 21:56:50] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 21:56:55] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 21:56:55] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 21:56:55] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69eff7ef] was not registered for synchronization because synchronization is not active
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3959192f] was not registered for synchronization because synchronization is not active
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@8d64141] was not registered for synchronization because synchronization is not active
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17f6c7b3] was not registered for synchronization because synchronization is not active
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3234cb0e] was not registered for synchronization because synchronization is not active
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a334cd2] was not registered for synchronization because synchronization is not active
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5669ac58] was not registered for synchronization because synchronization is not active
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ccd5ce3] was not registered for synchronization because synchronization is not active
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f344868] was not registered for synchronization because synchronization is not active
+[2018-02-04 21:57:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@122dd413] was not registered for synchronization because synchronization is not active
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@44f12124]]] will not be managed by Spring
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@126d9993]]] will not be managed by Spring
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@680a1f4c]]] will not be managed by Spring
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@25064785]]] will not be managed by Spring
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@623ba81b]]] will not be managed by Spring
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@3d72100a]]] will not be managed by Spring
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@3695d574]]] will not be managed by Spring
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@1d12391e]]] will not be managed by Spring
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@3b41739a]]] will not be managed by Spring
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@64f4bfe4]]] will not be managed by Spring
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5669ac58]
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3959192f]
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@122dd413]
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17f6c7b3]
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f344868]
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@8d64141]
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a334cd2]
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 21:57:04] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ccd5ce3]
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3234cb0e]
+[2018-02-04 21:57:04] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69eff7ef]
+[2018-02-04 21:58:05] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 21:58:08] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 21:58:09] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 21:58:09] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 21:58:09] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 21:58:14] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 21:58:14] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 21:58:14] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 21:59:16] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 21:59:19] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 21:59:20] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 21:59:20] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 21:59:20] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 21:59:25] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 21:59:25] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 21:59:25] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 21:59:52] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 21:59:55] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 21:59:56] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 21:59:56] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 21:59:56] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 22:00:01] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 22:00:01] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 22:00:01] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c5d59d9] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e6528a9] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b17413a] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b5d2d35] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75dfca61] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49ff1bce] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d11eeaa] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fbdaa4f] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e91f746] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:00:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78d1eaf5] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:00:09] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@16e7bb8d]]] will not be managed by Spring
+[2018-02-04 22:00:09] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:00:09] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@f48c748]]] will not be managed by Spring
+[2018-02-04 22:00:09] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:00:09] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@5585553e]]] will not be managed by Spring
+[2018-02-04 22:00:09] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:00:09] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@323f934b]]] will not be managed by Spring
+[2018-02-04 22:00:09] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:00:09] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@5e8cca24]]] will not be managed by Spring
+[2018-02-04 22:00:09] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:00:09] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@505612e4]]] will not be managed by Spring
+[2018-02-04 22:00:09] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:00:09] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@27b6481b]]] will not be managed by Spring
+[2018-02-04 22:00:09] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:00:09] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@262b64b]]] will not be managed by Spring
+[2018-02-04 22:00:09] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:00:09] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@2076bb97]]] will not be managed by Spring
+[2018-02-04 22:00:09] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:00:09] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:00:09] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:00:09] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:00:10] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:00:10] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@365d37e1]]] will not be managed by Spring
+[2018-02-04 22:00:10] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:00:10] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:00:10] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:00:10] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:00:10] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:00:10] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:00:10] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:00:10] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:00:10] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78d1eaf5]
+[2018-02-04 22:00:10] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:00:10] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e91f746]
+[2018-02-04 22:00:10] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:00:10] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d11eeaa]
+[2018-02-04 22:00:10] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:00:10] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e6528a9]
+[2018-02-04 22:00:10] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:00:10] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b5d2d35]
+[2018-02-04 22:00:10] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:00:10] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:00:10] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b17413a]
+[2018-02-04 22:00:10] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c5d59d9]
+[2018-02-04 22:00:10] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:00:10] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:00:10] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49ff1bce]
+[2018-02-04 22:00:10] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fbdaa4f]
+[2018-02-04 22:00:10] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:00:10] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75dfca61]
+[2018-02-04 22:04:11] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 22:04:13] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 22:04:14] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 22:04:14] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 22:04:14] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 22:04:20] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 22:04:20] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 22:04:21] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67e787a2] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5df432a6] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66585272] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4314a41e] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40e0964f] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@217c06ad] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ccd5ce3] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5af50fee] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25047198] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:04:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64579f9f] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@1b2dc923]]] will not be managed by Spring
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@67c372ce]]] will not be managed by Spring
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@2bc39b48]]] will not be managed by Spring
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@274e65df]]] will not be managed by Spring
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@660ffc25]]] will not be managed by Spring
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@3c26ca46]]] will not be managed by Spring
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@791ae90c]]] will not be managed by Spring
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@5eca8068]]] will not be managed by Spring
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@2f7ad455]]] will not be managed by Spring
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@2923b7f3]]] will not be managed by Spring
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64579f9f]
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5df432a6]
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66585272]
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@217c06ad]
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40e0964f]
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5af50fee]
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4314a41e]
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25047198]
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67e787a2]
+[2018-02-04 22:04:30] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:04:30] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ccd5ce3]
+[2018-02-04 22:05:25] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 22:05:28] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 22:05:29] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 22:05:29] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 22:05:29] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 22:05:34] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 22:05:34] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 22:05:34] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 22:06:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:06:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:06:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:06:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:06:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:06:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@735f1326] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:06:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bb69c02] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:06:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@fd6a659] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:06:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ace2aaa] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:06:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b7456f0] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:06:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:06:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@779ca873] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:06:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:06:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:06:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ebc2980] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:06:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:06:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2266a668] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:06:02] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2459a7c2] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:06:16] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:06:16] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@62f16b1] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@336cf97c]]] will not be managed by Spring
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@2387da7b]]] will not be managed by Spring
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@14cc3ef5]]] will not be managed by Spring
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@36a1a248]]] will not be managed by Spring
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@254403c2]]] will not be managed by Spring
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@79a19cf]]] will not be managed by Spring
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@1d23a5a]]] will not be managed by Spring
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@4fd2fad1]]] will not be managed by Spring
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@2810494f]]] will not be managed by Spring
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@4fc5c9c8]]] will not be managed by Spring
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@779ca873]
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ebc2980]
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@735f1326]
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@62f16b1]
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ace2aaa]
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bb69c02]
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2266a668]
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2459a7c2]
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b7456f0]
+[2018-02-04 22:06:17] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:06:17] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@fd6a659]
+[2018-02-04 22:07:32] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 22:07:35] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 22:07:35] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 22:07:35] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 22:07:35] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 22:07:40] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 22:07:40] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 22:07:40] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@395c8905] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29fe7dbd] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6e32820d] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@298880db] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7959e5ed] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4001214] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65f0b607] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@154e62eb] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fa43df9] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:07:57] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3df098d9] was not registered for synchronization because synchronization is not active
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@6449e7d0]]] will not be managed by Spring
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@656e1863]]] will not be managed by Spring
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@4a61d173]]] will not be managed by Spring
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@6cbde387]]] will not be managed by Spring
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@7dfa28cf]]] will not be managed by Spring
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@5b90a75e]]] will not be managed by Spring
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@1cf2ed5c]]] will not be managed by Spring
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@2cd715f2]]] will not be managed by Spring
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@71fb1146]]] will not be managed by Spring
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@71481ccc]]] will not be managed by Spring
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==>  Preparing: SELECT * FROM USER WHERE id = ? 
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- ==> Parameters: 5(Long)
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@298880db]
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@154e62eb]
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4001214]
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3df098d9]
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6e32820d]
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65f0b607]
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@395c8905]
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29fe7dbd]
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fa43df9]
+[2018-02-04 22:07:59] -- [DEBUG]: [com.gengsc.cachebreak.mapper.UserMapper.getOne] -- <==      Total: 1
+[2018-02-04 22:07:59] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7959e5ed]
+[2018-02-04 22:08:49] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 22:08:52] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 22:08:53] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 22:08:53] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 22:08:53] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 22:08:59] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 22:08:59] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 22:08:59] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 22:28:12] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 22:28:15] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 22:28:16] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 22:28:16] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 22:28:16] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 22:28:22] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 22:28:22] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 22:28:23] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-04 22:29:12] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-04 22:29:15] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-04 22:29:16] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-04 22:29:16] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-04 22:29:16] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-04 22:29:20] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-04 22:29:20] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-04 22:29:20] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found

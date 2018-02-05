@@ -1,0 +1,100 @@
+[2018-02-02 17:02:42] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-02 17:02:43] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-02 17:02:44] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-02 17:02:44] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-02 17:02:44] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-02 17:02:46] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-02 17:02:46] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-02 17:02:46] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-02 17:04:20] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-02 17:04:21] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-02 17:04:21] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-02 17:04:21] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-02 17:04:21] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-02 17:04:23] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-02 17:04:23] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-02 17:04:23] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-02 17:05:02] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-02 17:05:03] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-02 17:05:03] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-02 17:05:03] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-02 17:05:03] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-02 17:05:05] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-02 17:05:05] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-02 17:05:05] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-02 17:09:28] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-02 17:09:29] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-02 17:09:29] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-02 17:09:29] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-02 17:09:29] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-02 17:09:31] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-02 17:09:31] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-02 17:09:31] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-02 17:10:26] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-02 17:10:27] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-02 17:10:27] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-02 17:10:27] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-02 17:10:27] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-02 17:10:29] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-02 17:10:29] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-02 17:10:29] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-02 17:11:15] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-02 17:11:16] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-02 17:11:16] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-02 17:11:16] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-02 17:11:16] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-02 17:11:18] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-02 17:11:18] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-02 17:11:18] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-02 17:14:03] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-02 17:14:03] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-02 17:14:04] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-02 17:14:04] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-02 17:14:04] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-02 17:14:06] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-02 17:14:06] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-02 17:14:06] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-02 17:15:08] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-02 17:15:09] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-02 17:15:10] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-02 17:15:10] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-02 17:15:10] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-02 17:15:11] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-02 17:15:12] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-02 17:15:12] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b4e0008] was not registered for synchronization because synchronization is not active
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cc02a90] was not registered for synchronization because synchronization is not active
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ec55911] was not registered for synchronization because synchronization is not active
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a0edbe6] was not registered for synchronization because synchronization is not active
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b3cfd88] was not registered for synchronization because synchronization is not active
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d542e5e] was not registered for synchronization because synchronization is not active
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@77d07517] was not registered for synchronization because synchronization is not active
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3317fe51] was not registered for synchronization because synchronization is not active
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@126f9cf6] was not registered for synchronization because synchronization is not active
+[2018-02-02 17:15:51] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1396af5e] was not registered for synchronization because synchronization is not active
+[2018-02-02 17:21:32] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-02 17:21:34] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-02 17:21:34] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-02 17:21:34] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-02 17:21:34] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-02 17:21:36] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-02 17:21:36] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-02 17:21:36] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found
+[2018-02-02 17:45:35] -- [DEBUG]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-02-02 17:45:35] -- [DEBUG]: [org.jboss.logging] -- Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-02-02 17:45:36] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [E:\IdeaProjects\cachebreak\target\classes\com\gengsc\cachebreak\mapper\UserMapper.class]
+[2018-02-02 17:45:36] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.gengsc.cachebreak.mapper.UserMapper' mapperInterface
+[2018-02-02 17:45:36] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-02-02 17:45:38] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-02-02 17:45:38] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+[2018-02-02 17:45:38] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified or no matching resources found

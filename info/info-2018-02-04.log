@@ -1,0 +1,91 @@
+[2018-02-04 18:56:30] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Starting CacheBreakDownTest on DESKTOP-NJ7F21U with PID 6332 (started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 18:56:30] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- No active profile set, falling back to default profiles: default
+[2018-02-04 18:56:41] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Started CacheBreakDownTest in 11.804 seconds (JVM running for 15.572)
+[2018-02-04 19:41:54] -- [INFO ]: [com.gengsc.cachebreak.CachebreakApplication] -- Starting CachebreakApplication on DESKTOP-NJ7F21U with PID 32 (E:\IdeaProjects\cachebreak\target\classes started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 19:41:54] -- [INFO ]: [com.gengsc.cachebreak.CachebreakApplication] -- No active profile set, falling back to default profiles: default
+[2018-02-04 19:41:58] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2018-02-04 19:41:58] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.27
+[2018-02-04 19:41:58] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2018-02-04 19:42:02] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2018-02-04 19:42:02] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2018-02-04 19:42:02] -- [INFO ]: [org.apache.tomcat.util.net.NioSelectorPool] -- Using a shared selector for servlet write/read
+[2018-02-04 19:42:02] -- [INFO ]: [com.gengsc.cachebreak.CachebreakApplication] -- Started CachebreakApplication in 8.418 seconds (JVM running for 10.724)
+[2018-02-04 19:42:40] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-02-04 21:02:50] -- [INFO ]: [com.gengsc.cachebreak.CachebreakApplication] -- Starting CachebreakApplication on DESKTOP-NJ7F21U with PID 8600 (E:\IdeaProjects\cachebreak\target\classes started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 21:02:50] -- [INFO ]: [com.gengsc.cachebreak.CachebreakApplication] -- No active profile set, falling back to default profiles: default
+[2018-02-04 21:02:55] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2018-02-04 21:02:55] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.27
+[2018-02-04 21:02:55] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2018-02-04 21:02:58] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2018-02-04 21:02:58] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2018-02-04 21:02:58] -- [INFO ]: [org.apache.tomcat.util.net.NioSelectorPool] -- Using a shared selector for servlet write/read
+[2018-02-04 21:02:59] -- [INFO ]: [com.gengsc.cachebreak.CachebreakApplication] -- Started CachebreakApplication in 10.0 seconds (JVM running for 12.045)
+[2018-02-04 21:04:01] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-02-04 21:05:52] -- [INFO ]: [com.gengsc.cachebreak.CachebreakApplication] -- Starting CachebreakApplication on DESKTOP-NJ7F21U with PID 9660 (E:\IdeaProjects\cachebreak\target\classes started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 21:05:52] -- [INFO ]: [com.gengsc.cachebreak.CachebreakApplication] -- No active profile set, falling back to default profiles: default
+[2018-02-04 21:05:57] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2018-02-04 21:05:57] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.27
+[2018-02-04 21:05:57] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2018-02-04 21:06:01] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2018-02-04 21:06:01] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2018-02-04 21:06:01] -- [INFO ]: [org.apache.tomcat.util.net.NioSelectorPool] -- Using a shared selector for servlet write/read
+[2018-02-04 21:06:01] -- [INFO ]: [com.gengsc.cachebreak.CachebreakApplication] -- Started CachebreakApplication in 10.389 seconds (JVM running for 12.786)
+[2018-02-04 21:06:49] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-02-04 21:25:25] -- [INFO ]: [com.gengsc.cachebreak.CachebreakApplication] -- Starting CachebreakApplication on DESKTOP-NJ7F21U with PID 6204 (E:\IdeaProjects\cachebreak\target\classes started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 21:25:25] -- [INFO ]: [com.gengsc.cachebreak.CachebreakApplication] -- No active profile set, falling back to default profiles: default
+[2018-02-04 21:25:32] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2018-02-04 21:25:32] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.27
+[2018-02-04 21:25:32] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2018-02-04 21:25:36] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2018-02-04 21:25:36] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2018-02-04 21:25:36] -- [INFO ]: [org.apache.tomcat.util.net.NioSelectorPool] -- Using a shared selector for servlet write/read
+[2018-02-04 21:25:36] -- [INFO ]: [com.gengsc.cachebreak.CachebreakApplication] -- Started CachebreakApplication in 12.265 seconds (JVM running for 15.325)
+[2018-02-04 21:27:07] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-02-04 21:32:25] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Starting CacheBreakDownTest on DESKTOP-NJ7F21U with PID 9640 (started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 21:32:25] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- No active profile set, falling back to default profiles: default
+[2018-02-04 21:32:41] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Started CacheBreakDownTest in 18.687 seconds (JVM running for 22.604)
+[2018-02-04 21:33:46] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Starting CacheBreakDownTest on DESKTOP-NJ7F21U with PID 5820 (started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 21:33:46] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- No active profile set, falling back to default profiles: default
+[2018-02-04 21:34:02] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Started CacheBreakDownTest in 20.227 seconds (JVM running for 27.891)
+[2018-02-04 21:35:43] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Starting CacheBreakDownTest on DESKTOP-NJ7F21U with PID 3780 (started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 21:35:43] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- No active profile set, falling back to default profiles: default
+[2018-02-04 21:36:00] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Started CacheBreakDownTest in 20.451 seconds (JVM running for 24.36)
+[2018-02-04 21:37:53] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Starting CacheBreakDownTest on DESKTOP-NJ7F21U with PID 10176 (started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 21:37:53] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- No active profile set, falling back to default profiles: default
+[2018-02-04 21:38:12] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Started CacheBreakDownTest in 23.102 seconds (JVM running for 27.877)
+[2018-02-04 21:49:52] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Starting CacheBreakDownTest on DESKTOP-NJ7F21U with PID 10216 (started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 21:49:52] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- No active profile set, falling back to default profiles: default
+[2018-02-04 21:50:07] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Started CacheBreakDownTest in 17.53 seconds (JVM running for 21.037)
+[2018-02-04 21:55:22] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Starting CacheBreakDownTest on DESKTOP-NJ7F21U with PID 6032 (started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 21:55:22] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- No active profile set, falling back to default profiles: default
+[2018-02-04 21:55:37] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Started CacheBreakDownTest in 19.161 seconds (JVM running for 23.275)
+[2018-02-04 21:56:46] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Starting CacheBreakDownTest on DESKTOP-NJ7F21U with PID 2772 (started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 21:56:46] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- No active profile set, falling back to default profiles: default
+[2018-02-04 21:57:02] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Started CacheBreakDownTest in 19.233 seconds (JVM running for 22.777)
+[2018-02-04 21:58:05] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Starting CacheBreakDownTest on DESKTOP-NJ7F21U with PID 4844 (started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 21:58:05] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- No active profile set, falling back to default profiles: default
+[2018-02-04 21:58:20] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Started CacheBreakDownTest in 17.374 seconds (JVM running for 20.711)
+[2018-02-04 21:59:16] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Starting CacheBreakDownTest on DESKTOP-NJ7F21U with PID 2836 (started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 21:59:16] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- No active profile set, falling back to default profiles: default
+[2018-02-04 21:59:30] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Started CacheBreakDownTest in 17.611 seconds (JVM running for 21.137)
+[2018-02-04 21:59:52] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Starting CacheBreakDownTest on DESKTOP-NJ7F21U with PID 3292 (started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 21:59:52] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- No active profile set, falling back to default profiles: default
+[2018-02-04 22:00:07] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Started CacheBreakDownTest in 17.27 seconds (JVM running for 20.776)
+[2018-02-04 22:04:11] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Starting CacheBreakDownTest on DESKTOP-NJ7F21U with PID 9940 (started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 22:04:11] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- No active profile set, falling back to default profiles: default
+[2018-02-04 22:04:28] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Started CacheBreakDownTest in 20.276 seconds (JVM running for 23.872)
+[2018-02-04 22:05:25] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Starting CacheBreakDownTest on DESKTOP-NJ7F21U with PID 5500 (started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 22:05:25] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- No active profile set, falling back to default profiles: default
+[2018-02-04 22:05:42] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Started CacheBreakDownTest in 20.853 seconds (JVM running for 25.681)
+[2018-02-04 22:07:32] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Starting CacheBreakDownTest on DESKTOP-NJ7F21U with PID 9700 (started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 22:07:32] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- No active profile set, falling back to default profiles: default
+[2018-02-04 22:07:48] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Started CacheBreakDownTest in 20.222 seconds (JVM running for 24.246)
+[2018-02-04 22:08:49] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Starting CacheBreakDownTest on DESKTOP-NJ7F21U with PID 5080 (started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 22:08:49] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- No active profile set, falling back to default profiles: default
+[2018-02-04 22:09:05] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Started CacheBreakDownTest in 18.899 seconds (JVM running for 22.341)
+[2018-02-04 22:28:12] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Starting CacheBreakDownTest on DESKTOP-NJ7F21U with PID 2716 (started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 22:28:12] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- No active profile set, falling back to default profiles: default
+[2018-02-04 22:28:29] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Started CacheBreakDownTest in 20.054 seconds (JVM running for 23.549)
+[2018-02-04 22:29:12] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Starting CacheBreakDownTest on DESKTOP-NJ7F21U with PID 10140 (started by Administrator in E:\IdeaProjects\cachebreak)
+[2018-02-04 22:29:12] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- No active profile set, falling back to default profiles: default
+[2018-02-04 22:29:26] -- [INFO ]: [com.gengsc.cachebreak.CacheBreakDownTest] -- Started CacheBreakDownTest in 16.239 seconds (JVM running for 19.694)
